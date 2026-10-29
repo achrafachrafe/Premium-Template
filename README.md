@@ -32,65 +32,80 @@ A modern, responsive, and customizable website template built with **PHP, MySQL,
 
 ## 📁 Project Structure
 
-text
+```text
 Premium-Template/
 │
-├── css/
-├── imgs/
-├── javascript/
-├── vendor/                     # Composer dependencies
+├── CSS/
+│   ├── change_password.css
+│   ├── collaborations.css
+│   ├── gallery.css
+│   ├── services.css
+│   ├── settingss.css
+│   ├── socials.css
+│   ├── statss.css
+│   ├── style.css
+│   └── timeline.css
 │
-├── .env                         # Local environment configuration (not uploaded)
-├── .env.example                 # Example environment configuration
+├── imgs/
+│   ├── brands/
+│   └── [Website images and visual assets]
+│
+├── javascript/
+│   ├── gallerye.js
+│   ├── scr.js
+│   └── settings.js
+│
+├── .env.example
 ├── .gitignore
 ├── composer.json
 ├── composer.lock
 ├── database.sql
+├── LICENSE
+├── README.md
 ├── settings.json
 │
-├── admin_install.php
 ├── admin.php
+├── admin_install.php
 ├── change_password.php
-├── collaboration.php
+├── collaborations.php
 ├── contact.php
-├── db.php                       # Local database connection file (not uploaded)
+├── delete.php
 ├── delete_collaboration.php
-├── delete_gallery.php
+├── delete_media.php
 ├── delete_newsletter.php
 ├── delete_service.php
 ├── delete_social.php
 ├── delete_timeline.php
-├── delete.php
+├── edit.php
 ├── edit_collaboration.php
 ├── edit_gallery.php
 ├── edit_service.php
 ├── edit_social.php
 ├── edit_timeline.php
-├── edit.php
 ├── export_newsletter.php
 ├── forgot_password.php
 ├── gallery.php
 ├── hash.php
 ├── index.php
-├── install_success.php
 ├── install.php
-├── installed.lock
+├── install_success.php
 ├── installer.php
 ├── login.php
 ├── logout.php
 ├── messages.php
-├── newsletter_admin.php
 ├── newsletter.php
-├── send_newsletter_process.php
+├── newsletter_admin.php
 ├── send_newsletter.php
+├── send_newsletter_process.php
 ├── services.php
 ├── settings.php
 ├── smtp_settings.php
 ├── socials.php
 ├── stats.php
-├── testimonial_delete.php
-├── testimonial_edit.php
+├── testimonial_off.php
+├── testimonial_on.php
 └── timeline.php
+```
 
 
 **Note:** Some local configuration and installation files are excluded from the GitHub repository through `.gitignore`, including `.env`, `db.php`, `vendor/`, and `installed.lock`. Dependencies can be installed using `composer install`.
