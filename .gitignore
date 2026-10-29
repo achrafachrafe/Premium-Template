@@ -1,0 +1,42 @@
+
+# Sensitive database configuration
+db.php
+.env
+.env.*
+!.env.example
+
+# Local dependencies and temporary files
+/vendor/
+*.log
+*.bak
+
+# Secrets
+.env
+.env.*
+!.env.example
+db.php
+
+# Dependencies
+/vendor/
+
+# Temporary files
+*.log
+*.bak
+desktop.ini
+
+# Local editor settings
+.vscode/
+
+# Local installation state
+installed.lock
+
+# Local database configuration
+db.php
+.env
+.env.*
+!.env.example
+
+# Dependencies and local files
+/vendor/
+/.vscode/
+desktop.ini
